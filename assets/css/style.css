@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 
 html,
@@ -27,7 +28,7 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(206, 88%, 39%);
 }
 
 .card {
