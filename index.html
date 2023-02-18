@@ -6,10 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Christy's Password Generator</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- Linked in the style.css file here. -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/b1ab18d062.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!-- wrapper class encompasses the headers and card body/footer. -->
   <div class="wrapper">
     <header>
       <h1>Christy's Password Generator</h1>
@@ -17,12 +20,13 @@
     <div class="card">
       <div class="card-header">
         <header>
-          <h2>Generate a Password</h2>
+          <h2>Generate a Secure Password</h2>
         </header>
       </div>
       <div class="card-body">
         <!-- Text box -->
-        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+        <textarea readonly id="password" placeholder="Type in a Secure Password"
+          aria-label="Generated Password"></textarea>
       </div>
       <div class="card-footer">
         <!-- Clickable button. Generate element -->
@@ -30,7 +34,11 @@
       </div>
     </div>
   </div>
-  <script src="script.js"></script>
+
+  <footer class="footer">
+    <a href="https://github.com/ChristyGHanson/JS-Password-Generator"><i class="fa-brands fa-github"></i></a>
+  </footer>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
