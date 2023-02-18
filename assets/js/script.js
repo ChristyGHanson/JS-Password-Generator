@@ -67,8 +67,6 @@ function generatePassword() {
 // eventTarget.addEventListener() method of the EventTarget interface.
 generateBtn.addEventListener("click", writePassword); //will cause functions to activate above.
 
-
-
 // Else if allows you to test more than one condition
 // The first condition is false, so the second condition is evaluated. Logs "Cost Rating: $$""
 
