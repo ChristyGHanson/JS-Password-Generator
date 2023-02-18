@@ -21,6 +21,7 @@ It will also feature a clean and polished user interface and be responsive, ensu
 In addition to HTML, CSS, and JavaScript, we used the following technology for this website.
 
 * [Font Awesome](https://fontawesome.com/) provides a collection of free icons and toolkits (you have to make a free account). 
+* The [w3schools "CSS Buttons"] was helpful in styling the buttons.
 
 
 

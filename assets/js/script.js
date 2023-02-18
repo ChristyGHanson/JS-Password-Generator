@@ -21,18 +21,36 @@ function generatePassword() {
     alert('Password must be a number between 8 and 128 characters.');
     return; //return; stops function.
   }
+
   console.log(pwLength);
   let useLower = confirm('Do you want to use lowercase letters?'); // test for false. then return.
   let useUpper = confirm('Do you want to use uppercase letters?');
   let useSpecialChar = confirm('Do you want to use special characters?');
   let useNum = confirm('Do you want to use numbers?');
   console.log(useLower, useUpper, useSpecialChar, useNum); //pass more than one thing into a function.
+
   //evaluate characters they chose to add. 
   // Whatever the user selected, we will use to generate a password. Leave array completely empty.
   let useChar = [];
-  //evaluate. copy this and do it for the rest.
+  //evaluate for lowercase. copy this and do it for the rest.
   if (useLower) {
     useChar.push(...lowerCase); //push is a method. do this for the other arrays. ... is the spread operator. push one character at a time into each array "space."
+  };
+
+
+  //evaluate for uppercase.
+  if (useUpper) {
+    useChar.push(...upperCase);
+  };
+
+  //evaluate for special character
+  if (useSpecialChar) {
+    useChar.push(...specialCharacter);
+  };
+
+  // evaluate for numbers.
+  if (useNum) {
+    useChar.push(...numbers);
   };
 
   console.log(useChar); // put the array in the array. not what we want.
@@ -55,16 +73,6 @@ generateBtn.addEventListener("click", writePassword); //will cause functions to 
 // The first condition is false, so the second condition is evaluated. Logs "Cost Rating: $$""
 
 
-
-// Temporary comment:
-// 
-// Objects are a collection of values. This is from Challenge lesson 3.
-//  separate values with a comma.
-// var cars = {
-  // make: "Honda",
-  // model: "Civic",
-  // year: "2003",
-// };
 
 // var displayList = function () {
   // alert("Make: " + cars.make);

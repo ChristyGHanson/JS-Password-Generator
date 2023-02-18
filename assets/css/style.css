@@ -74,18 +74,19 @@ header {
 }
 
 .btn {
-  border: none;
+  border: 1px solid hsl(306, 94%, 27%);
   background-color: hsl(189, 77%, 36%);
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+  padding: 14px 35px;
   text-align: center;
   cursor: pointer;
+  width: 80%;
 }
 
 button[disabled] {
