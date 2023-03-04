@@ -19,12 +19,4 @@ It will also feature a clean and polished user interface and be responsive, ensu
 3. Click OK if you would like lowercase letters, uppercase letters, special characters, and numbers.
 4. The password will randomly generate and appear in the text box.
 
-# Technology Used
-
-In addition to HTML, CSS, and JavaScript, we used the following technology for this website.
-
-* [Font Awesome](https://fontawesome.com/) provides a collection of free icons and toolkits (you have to make a free account). 
-* The [W3Schools "CSS Buttons" article](https://www.w3schools.com/css/css3_buttons.asp) was helpful in styling the button.
-
-
 
